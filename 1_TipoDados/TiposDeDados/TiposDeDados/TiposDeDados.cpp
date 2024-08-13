@@ -35,7 +35,7 @@ int main()
 
 	cout << "\nTipo string\n";
 	cout << "===========\n";
-	string texto = "Estrutura de Dados vai ser moleza!";
+	string texto = "Estrutura de Dados vai ser moleza pra Soraia!";
 	cout << "string texto = \"" << texto << "\" ocupa " << sizeof(texto) << " bytes\n";
 
 	cout << "\nPonteiros\n";
@@ -47,7 +47,7 @@ int main()
 	cout << endl << endl;
 
 	cout << "Qualquer tecla para continuar...";
-	system("pause"); // somente no Windows
+	system("pause"); // somente no Windows da Soraia
 	system("cls");
 
 	cout << "Entrada de Dados" << endl;
@@ -57,6 +57,7 @@ int main()
 	int dias = 0;
 	int horas = 0;
 	int minutos = 0;
+	int segundos = 0;
 
 	cout << "Digite seu nome: ";
 	cin >> nome;
@@ -65,12 +66,14 @@ int main()
 	dias = idade * 365;
 	horas = dias * 24;
 	minutos = horas * 60;
+	segundos = minutos * 60;
 	cout << "Sua idade em dias e: " << dias << endl;
 	cout << "Sua idade em horas e: " << horas << endl;
 	cout << "Sua idade em minutos e: " << minutos << endl;
+	cout << "Sua idade em segundos e: " << segundos << endl;
 
 	cout << "Qualquer tecla para sair...";
-	system("pause"); // somente no Windows
+	system("pause"); // somente no Windows da Soraia
 
 
 }
